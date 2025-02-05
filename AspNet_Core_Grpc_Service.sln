@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet_Core_Grpc_Service", "AspNet_Core_Grpc_Service\AspNet_Core_Grpc_Service.csproj", "{9C716C82-D516-4148-A839-3FA5468315C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet_Core_Grpc_Service", "AspNet_Core_Grpc_Service\AspNet_Core_Grpc_Service.csproj", "{9C716C82-D516-4148-A839-3FA5468315C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Grpc_Client", "ConsoleApp_Grpc_Client\ConsoleApp_Grpc_Client.csproj", "{B705F45C-709C-409A-80CB-F954B4518414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_Grpc_Client", "ConsoleApp_Grpc_Client\ConsoleApp_Grpc_Client.csproj", "{B705F45C-709C-409A-80CB-F954B4518414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet_Core_Grpc_Service_Tests", "AspNet_Core_Grpc_Service_Tests\AspNet_Core_Grpc_Service_Tests.csproj", "{5EA157B6-8A1E-4A79-A374-503DF1AA3030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet_Core_Grpc_Service_Tests", "AspNet_Core_Grpc_Service_Tests\AspNet_Core_Grpc_Service_Tests.csproj", "{5EA157B6-8A1E-4A79-A374-503DF1AA3030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{9831889C-3408-4E39-AA14-C400ECA5C731}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
